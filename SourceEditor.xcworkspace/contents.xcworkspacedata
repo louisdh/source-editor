@@ -5,7 +5,7 @@
       location = "group:iOS Example/iOS Example.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../SavannaKit/SavannaKit.xcodeproj">
+      location = "group:Dependencies/SavannaKit/SavannaKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SourceEditor.xcodeproj">
