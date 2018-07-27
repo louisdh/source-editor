@@ -13,7 +13,7 @@ env:
   matrix:
 
     - DESTINATION="OS=11.4,name=iPad Pro (9.7-inch)"    SCHEME="$IOS_FRAMEWORK_SCHEME"
-    - DESTINATION="arch=x86_64"                         SCHEME="$MACOS_FRAMEWORK_SCHEME" 
+    # - DESTINATION="arch=x86_64"                         SCHEME="$MACOS_FRAMEWORK_SCHEME" 
 
 script:
   - set -o pipefail
