@@ -10,6 +10,7 @@
 		BE09FBF120FFD141002BA501 /* SourceEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = BE09FBEF20FFD141002BA501 /* SourceEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE09FBF520FFD155002BA501 /* SourceCodeRegexLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE09FBF220FFD155002BA501 /* SourceCodeRegexLexer.swift */; };
 		BE09FBF720FFD155002BA501 /* SourceCodeToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE09FBF420FFD155002BA501 /* SourceCodeToken.swift */; };
+		BE27F55C210BAB47003FEF67 /* SavannaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE27F55B210BAB47003FEF67 /* SavannaKit.framework */; };
 		BED4BCBF210832A40068AEE3 /* SwiftLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCBE210832A40068AEE3 /* SwiftLexer.swift */; };
 		BED4BCC1210832FC0068AEE3 /* SourceCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCC0210832FC0068AEE3 /* SourceCodeTheme.swift */; };
 		BED4BCC3210833210068AEE3 /* DefaultSourceCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCC2210833210068AEE3 /* DefaultSourceCodeTheme.swift */; };
@@ -21,6 +22,7 @@
 		BE09FBEF20FFD141002BA501 /* SourceEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceEditor.h; sourceTree = "<group>"; };
 		BE09FBF220FFD155002BA501 /* SourceCodeRegexLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceCodeRegexLexer.swift; sourceTree = "<group>"; };
 		BE09FBF420FFD155002BA501 /* SourceCodeToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceCodeToken.swift; sourceTree = "<group>"; };
+		BE27F55B210BAB47003FEF67 /* SavannaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SavannaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED4BCBE210832A40068AEE3 /* SwiftLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLexer.swift; sourceTree = "<group>"; };
 		BED4BCC0210832FC0068AEE3 /* SourceCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeTheme.swift; sourceTree = "<group>"; };
 		BED4BCC2210833210068AEE3 /* DefaultSourceCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSourceCodeTheme.swift; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE27F55C210BAB47003FEF67 /* SavannaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				BE09FBED20FFD141002BA501 /* Sources */,
 				BE09FBE320FFCF06002BA501 /* Products */,
+				BE27F55A210BAB47003FEF67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				BE09FBEF20FFD141002BA501 /* SourceEditor.h */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		BE27F55A210BAB47003FEF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE27F55B210BAB47003FEF67 /* SavannaKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BED4BCBD210832930068AEE3 /* Languages */ = {
