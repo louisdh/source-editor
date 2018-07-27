@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SourceEditor'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.license = 'MIT'
   s.summary = 'A native source editor for iOS and macOS.'
   s.homepage = 'https://github.com/louisdh/source-editor'
