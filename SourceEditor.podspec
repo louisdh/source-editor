@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.swift'
 
-  s.dependency 'SavannaKit'
+  s.dependency 'SavannaKit', '~> 0.9'
 
 end
