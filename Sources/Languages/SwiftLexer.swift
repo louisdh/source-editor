@@ -26,7 +26,7 @@ public class SwiftLexer: SourceCodeRegexLexer {
 		
 		generators.append(regexGenerator("\\b(println|print)(?=\\()", tokenType: .identifier))
 		
-		generators.append(regexGenerator("(?<=\\s)\\d+", tokenType: .number))
+		generators.append(regexGenerator("(?<=(\\s|\\[|,|:))\\d+", tokenType: .number))
 		
 		generators.append(regexGenerator("\\.\\w+", tokenType: .identifier))
 		
