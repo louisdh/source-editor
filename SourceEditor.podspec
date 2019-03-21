@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.swift'
 
-  s.dependency 'SavannaKit', :git => 'https://github.com/ronaldmannak/savannakit.git'
+  s.dependency 'SavannaKit', '~> 0.9'
+
 end
