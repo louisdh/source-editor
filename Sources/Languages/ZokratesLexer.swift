@@ -33,9 +33,9 @@ public class SokratesLexer: SourceCodeRegexLexer {
         
         generators.append(keywordGenerator(stdlibIdentifiers, tokenType: .identifier))
         
-//        let stdlibFunctions = "".components(separatedBy: " ")
+        let stdlibFunctions = "sha256 and isbool not or xor".components(separatedBy: " ")
         
-//        generators.append(keywordGenerator(stdlibFunctions, tokenType: .keyword))
+        generators.append(keywordGenerator(stdlibFunctions, tokenType: .keyword))
         
         // Comment
         generators.append(regexGenerator("//(.*)", tokenType: .comment))
