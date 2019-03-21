@@ -14,6 +14,7 @@
 		BED4BCBF210832A40068AEE3 /* SwiftLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCBE210832A40068AEE3 /* SwiftLexer.swift */; };
 		BED4BCC1210832FC0068AEE3 /* SourceCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCC0210832FC0068AEE3 /* SourceCodeTheme.swift */; };
 		BED4BCC3210833210068AEE3 /* DefaultSourceCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED4BCC2210833210068AEE3 /* DefaultSourceCodeTheme.swift */; };
+		C7AE8A802243546A001EC64A /* ZokratesLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE8A7F2243546A001EC64A /* ZokratesLexer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BED4BCBE210832A40068AEE3 /* SwiftLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLexer.swift; sourceTree = "<group>"; };
 		BED4BCC0210832FC0068AEE3 /* SourceCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeTheme.swift; sourceTree = "<group>"; };
 		BED4BCC2210833210068AEE3 /* DefaultSourceCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSourceCodeTheme.swift; sourceTree = "<group>"; };
+		C7AE8A7F2243546A001EC64A /* ZokratesLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZokratesLexer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				BED4BCBE210832A40068AEE3 /* SwiftLexer.swift */,
+				C7AE8A7F2243546A001EC64A /* ZokratesLexer.swift */,
 			);
 			path = Languages;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED4BCC1210832FC0068AEE3 /* SourceCodeTheme.swift in Sources */,
+				C7AE8A802243546A001EC64A /* ZokratesLexer.swift in Sources */,
 				BED4BCBF210832A40068AEE3 /* SwiftLexer.swift in Sources */,
 				BE09FBF720FFD155002BA501 /* SourceCodeToken.swift in Sources */,
 				BE09FBF520FFD155002BA501 /* SourceCodeRegexLexer.swift in Sources */,
