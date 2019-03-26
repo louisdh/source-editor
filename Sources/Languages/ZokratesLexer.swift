@@ -9,7 +9,7 @@
 import Foundation
 import SavannaKit
 
-public class SokratesLexer: SourceCodeRegexLexer {
+public class ZokratesLexer: SourceCodeRegexLexer {
     
     public init() {
         
