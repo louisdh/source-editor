@@ -11,8 +11,9 @@ import SavannaKit
 
 public protocol SourceCodeTheme: SyntaxColorTheme {
 	
-	func color(for syntaxColorType: SourceCodeTokenType) -> Color
-	
+    init(font: Font)
+    
+	func color(for syntaxColorType: SourceCodeTokenType) -> Color	
 }
 
 extension SourceCodeTheme {
